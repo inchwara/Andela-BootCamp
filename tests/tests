@@ -1,0 +1,6 @@
+-field area should take only numeric value
+-number should not contain fraction or decimal
+-number should not contain any special character
+-number should be divisible by 1
+-if number is divisible by other than 1 then reminder should
+be 1
