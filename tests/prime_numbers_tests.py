@@ -11,12 +11,17 @@ class TestPrimeNumbers(unittest.TestCase)
 				return True
 
 		def test_prime_numbers(self):
-			if n < 2 or n%2 == 0: 
+			if n < 2  == 0: 
 				return False
 
 		def test_prime_numbers(self):
 			if n % i == 0: 
 				return False
+
+		def test_prime_numbers(self):
+			if n%2 == 0: 
+				return False
+
 
 
 
