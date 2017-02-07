@@ -9,7 +9,9 @@ class TestPrimeNumbers(unittest.TestCase)
 		def test_prime_numbers(self):
 			if n < 9: return True
 
-		
+		def test_prime_numbers(self):
+			if n < 2 or n%2 == 0: return False
+			
 
 
 
